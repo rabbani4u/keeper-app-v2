@@ -4,10 +4,6 @@ import Footer from "./Footer";
 import Note from "./Note";
 import notes from "../notes";
 
-function CreateNotes(noteItem) {
-  return <Note title={noteItem.title} content={noteItem.content} />;
-}
-
 function App() {
   return (
     <div>
